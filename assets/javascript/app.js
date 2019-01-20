@@ -24,7 +24,10 @@ $(document).ready(function() {
         }
       }
     });
-    // ############
-  
-    // document ready
   });
+
+  // change carousel slides
+
+  $('.carousel').carousel({
+    interval: 3000
+  })

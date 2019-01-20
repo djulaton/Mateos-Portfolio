@@ -5,3 +5,11 @@ body {
 .nav-link {
   font: normal normal bold 20px/1.4em raleway,sans-serif;
 }
+
+/* .carousel-item {
+  padding: 200px;
+} */
+
+#carouselExampleIndicators {
+  margin: 100px;
+}
