@@ -1,9 +1,23 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+  color: #505962;
 }
 
 .nav-link {
-  font: normal normal bold 20px/1.4em raleway,sans-serif;
+  font: normal normal bold 17px/1.4em raleway,sans-serif;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  /* background: rgba(0, 0, 0, .6); */
+}
+
+.navbar-nav .nav-item .nav-link.active,
+.navbar-nav .nav-item .nav-link:hover {
+  color: darkblue;
 }
 
 /* .carousel-item {
@@ -13,3 +27,33 @@ body {
 #carouselExampleIndicators {
   margin: 100px;
 }
+
+.about-mateo {
+  padding: 20px;
+}
+
+#mateo-info, #about-header {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  color: lightslategray;
+}
+
+#aboutMe {
+background-color: aqua;
+border: 5px;
+padding: 20px;
+}
+
+.narrow {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.offset:before {
+  height: 4rem;
+  margin-top: -4rem;
+  content: "";
+  display: block;
+}
+

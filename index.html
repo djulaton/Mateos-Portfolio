@@ -12,6 +12,9 @@
 
     <!-- Google Fonts Link -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+
     <!-- Personal CSS file -->
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/styles.css" />
 
@@ -33,13 +36,13 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#aboutMe">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -53,15 +56,24 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
         </ol>
-        <div class="carousel-inner">
+        <div class="carousel-inner" role="listbox">
+
+            <!-- Slide 1 -->
             <div class="carousel-item active">
-                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1545269687/46848669_383160029095013_9008240036305698682_n.jpg.jpg" alt="First slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1545269687/46848669_383160029095013_9008240036305698682_n.jpg.jpg"
+                    alt="First slide">
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1545269782/mateo_headphones.jpg" alt="Second slide">
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('https://res.cloudinary.com/djulaton/image/upload/v1545269782/mateo_headphones.jpg');">
+                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1545269782/mateo_headphones.jpg"
+                    alt="Second slide">
             </div>
+
+            <!-- Slide 3 -->
             <div class="carousel-item">
-                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1547957587/mateo-pole.jpg" alt="Third slide">
+                <img class="d-block w-100" src="https://res.cloudinary.com/djulaton/image/upload/v1547957587/mateo-pole.jpg"
+                    alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -74,10 +86,119 @@
         </a>
     </div>
 
-<!-- About me section -->
-<div class="container-fluid">
-<header class="text-center">About me</header>
-</div>
+    <!-- About me section -->
+    <div id="aboutMe" class="offset">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-sm-6">
+                    <h1 id="about-header"><strong>ABOUT ME</strong></h1>
+                    <img class="d-block w-100 about-mateo" src="https://res.cloudinary.com/djulaton/image/upload/v1544027723/File_Sep_06_10_04_36_AM.jpg"
+                        alt="mateo-about">
+                </div>
+                <div class="col-sm-6" id="mateo-info">
+                    <p>Hi, I'm Mateo!</p>
+                    <br>
+                    <p>I like: Playing in the park, reading time, spending time with family, and making new friends</p>
+                    <p>Age: 3 years old</p>
+                    <p>Weight: 30 lbs</p>
+                    <p>Height:</p>
+                    <p>Shoe size: 10</p>
+                    <p>Waist:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio section -->
+
+    <div id="portfolio" class="offset">
+        <div class="jumbotron container-fluid">
+            <div class="col-12 text-center">
+                <h3 class="heading">Portfolio</h3>
+                <div class="heading-underline"></div>
+            </div>
+
+            <div class="row no-padding">
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-fence.jpg" target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-fence.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547997724/mateo-wall-park.jpg"
+                            target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/c_scale,h_746,w_750/v1547997724/mateo-wall-park.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-slide.jpg" target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-slide.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-ice-cream.jpg"
+                            target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-ice-cream.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-tube.jpg" target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/v1547997722/mateo-tube.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="portfolio">
+                        <a href="https://res.cloudinary.com/djulaton/image/upload/v1547957587/mateo-pole.jpg" target="_blank">
+                            <img src="https://res.cloudinary.com/djulaton/image/upload/v1547957587/mateo-pole.jpg">
+                        </a>
+                    </div>
+                </div>
+                <div class="narrow text-center">
+                    <div class="col-12">
+                        <p class="lead">See all of my cool photos</p>
+                    </div>
+                </div>
+
+            </div> <!-- end of row -->
+        </div> <!-- end of jumbotron -->
+
+        <!-- Start footer section -->
+
+        <div id="contact" class="offset">
+
+            <footer>
+                <div class="row justify-content-center">
+
+                    <div class="col-md-5 text-center">
+
+                        <strong>Contact Info</strong>
+                        <p>(415) 637-7110</p>
+                        <p>dianajulaton@gmail.com</p>
+
+                    </div>
+
+                    <hr class="socket">
+                    &copy; Diana Julaton 2019
+
+                </div> <!-- End of row -->
+            </footer>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
