@@ -28,6 +28,20 @@ body {
   margin: 100px;
 }
 
+/* .carousel-item {
+  height: 100vh;
+} */
+
+.carousel-caption h1 {
+  /* font: 'raleway',sans-serif; */
+  text-transform: uppercase;
+  font-size: 3.8rem;
+  font-weight: 700;
+  letter-spacing: .3rem;
+  text-shadow: .1rem .1rem .8rem black;
+  padding-bottom: 1rem;
+}
+
 .about-mateo {
   padding: 20px;
 }
@@ -57,3 +71,23 @@ padding: 20px;
   display: block;
 }
 
+/* Portfolio section */
+
+.jumbotron {
+  border-radius: 0;
+  padding: 3rem 0 2 rem;
+}
+
+.h3.heading {
+  font-size: 1.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 1.9rem;
+}
+
+.heading-underline {
+  width: 3rem;
+  height: .2rem;
+  background-color: aqua;
+  margin: 0 auto 2rem;
+}
