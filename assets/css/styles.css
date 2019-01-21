@@ -1,7 +1,8 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'raleway',sans-serif;
   overflow-x: hidden;
   color: #505962;
+  letter-spacing: .1rem;
 }
 
 /* navbar section */
@@ -20,6 +21,7 @@ body {
 .navbar-nav .nav-item .nav-link.active,
 .navbar-nav .nav-item .nav-link:hover {
   color: lightgrey;
+  transition: 0.3s;
 }
 
 /* .carousel-item {
@@ -86,7 +88,7 @@ body {
 }
 
 #aboutMe {
-background-color: aqua;
+/* background-color: aqua; */
 border: 5px;
 padding: 20px;
 }
