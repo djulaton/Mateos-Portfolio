@@ -5,7 +5,7 @@ body {
 }
 
 .nav-link {
-  font: normal normal bold 17px/1.4em raleway,sans-serif;
+  font: normal normal bold 17px/1.4em 'raleway',sans-serif;
 }
 
 .navbar {
@@ -17,7 +17,7 @@ body {
 
 .navbar-nav .nav-item .nav-link.active,
 .navbar-nav .nav-item .nav-link:hover {
-  color: darkblue;
+  color: lightgrey;
 }
 
 /* .carousel-item {
@@ -90,4 +90,39 @@ padding: 20px;
   height: .2rem;
   background-color: aqua;
   margin: 0 auto 2rem;
+}
+
+/* Portfolio section */
+
+.portfolio img {
+  max-width: 100%;
+  transition: transform .5s ease;
+}
+
+.row.no-padding [class*=col-] {
+  padding: 0;
+}
+
+.portfolio img:hover {
+  transform: scale(1.1);
+  cursor: zoom-in;
+}
+
+.portfolio {
+  overflow: hidden;
+}
+
+/* Footer section */
+
+footer {
+  background-color: #40474e;
+  color: white;
+  padding: 2rem 0 3rem;
+  margin-top: 1rem;
+  font-size: 14px;
+}
+
+hr.socket {
+  border-top: .2rem solid #666b71;
+  width: 100%;
 }
