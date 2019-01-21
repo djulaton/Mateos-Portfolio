@@ -4,6 +4,8 @@ body {
   color: #505962;
 }
 
+/* navbar section */
+
 .nav-link {
   font: normal normal bold 17px/1.4em 'raleway',sans-serif;
 }
@@ -41,6 +43,37 @@ body {
   text-shadow: .1rem .1rem .8rem black;
   padding-bottom: 1rem;
 }
+
+
+/* test */
+
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/* end of teset */
+
+/* About me section */
 
 .about-mateo {
   padding: 20px;
